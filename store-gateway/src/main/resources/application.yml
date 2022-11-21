@@ -6,8 +6,12 @@ spring:
         - id: user-service
           uri: lb://user-service
           predicates:
-            - Path=/user/**  # 访问user路径转发用户服务
-        - id: product-service # 此名称随意定义
-          uri: lb://product-service #使用负载均衡,调用服务名,这是服务名
+            - Path=/user/**  # 訪問user路径转发用户服務
+        - id: product-service # 此名稱随意定义
+          uri: lb://product-service #使用負載均衡,调用服務名,這是服務名
           predicates:
-            - Path=/product/** # 访问product相关,转发到product服务
+            - Path=/product/** # 訪問product相關,轉發到product服務
+        - id: static-service
+          uri: lb://static-service #靜態資源處理以及oss上傳服務!
+          predicates:
+              - Path=/public/**

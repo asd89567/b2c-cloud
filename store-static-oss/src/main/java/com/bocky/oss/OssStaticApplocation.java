@@ -1,0 +1,12 @@
+package com.bocky.oss;
+
+import javafx.application.Application;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class OssStaticApplocation {
+    public static void main(String[] args) {
+        SpringApplication.run(OssStaticApplocation.class,args);
+    }
+}

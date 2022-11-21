@@ -6,7 +6,9 @@ import com.baomidou.mybatisplus.annotation.TableName;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Data;
+import org.hibernate.validator.constraints.Length;
 
+import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
 
 @TableName("user")
@@ -18,9 +20,12 @@ public class User implements Serializable {
     @TableId(type = IdType.AUTO)
     @JsonProperty("user_id")
     private Integer userId;
+    @Length(min = 6)
     private String  userName;
     @JsonInclude(JsonInclude.Include.NON_NULL)
+    @NotBlank
     private String  password;
     @JsonInclude(JsonInclude.Include.NON_NULL)
+    @NotBlank
     private String  userPhonenumber;
 }
