@@ -15,3 +15,11 @@ spring:
           uri: lb://static-service #靜態資源處理以及oss上傳服務!
           predicates:
               - Path=/public/**
+        - id: carousel-service
+          uri: lb://carousel-service
+          predicates:
+              - Path=/carousel/**
+        - id: category-service  # 类别服务
+          uri: lb://category-service
+          predicates:
+            - Path=/category/**

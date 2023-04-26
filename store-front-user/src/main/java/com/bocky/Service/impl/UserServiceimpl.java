@@ -14,11 +14,13 @@ import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.Resource;
+
 @Service
 @Slf4j
 public class UserServiceimpl  implements UserService {
 
-    @Autowired
+    @Resource
     private UserMapper userMapper;
 
 
@@ -83,12 +85,13 @@ public class UserServiceimpl  implements UserService {
 
         QueryWrapper<User> queryWrapper = new QueryWrapper<>();
         queryWrapper.eq("user_name",userLoginParm.getUserName()).eq("password",pwd);
-        User user = userMapper.selectOne(queryWrapper);
+        User loginUser = userMapper.selectOne(queryWrapper);
 
-        if (user==null){
-            R.fail("帳號或者密碼錯誤",user);
+        if (loginUser==null){
+         return   R.fail("帳號或者密碼錯誤",loginUser);
         }
-        user.setPassword(null);
-        return R.ok("登陸成功",user);
+        loginUser.setPassword(null);
+
+        return R.ok("登陸成功",loginUser);
     }
 }

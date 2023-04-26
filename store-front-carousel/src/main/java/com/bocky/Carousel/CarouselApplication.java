@@ -1,13 +1,13 @@
-package com.bocky.user;
+package com.bocky.Carousel;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@MapperScan(basePackages = "com.bocky.user.mapper")
+@MapperScan(basePackages = "com.bocky.carousel")
 @SpringBootApplication
-public class UserApplication {
+public class CarouselApplication {
     public static void main(String[] args) {
-        SpringApplication.run(UserApplication.class,args);
+        SpringApplication.run(CarouselApplication.class,args);
     }
 }
