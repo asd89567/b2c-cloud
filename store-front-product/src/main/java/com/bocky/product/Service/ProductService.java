@@ -3,8 +3,11 @@ package com.bocky.product.Service;
 import com.bocky.parm.ProductHotParm;
 import com.bocky.parm.ProductIdParm;
 import com.bocky.parm.ProductIdsParm;
+import com.bocky.pojo.Product;
 import com.bocky.utils.R;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 
 /**
@@ -50,4 +53,10 @@ public interface ProductService {
      * @return
      */
     R pictures(Integer productID);
+    /**
+     * 收索調用全部商品集合
+     * @param productID
+     * @return
+     */
+    List<Product> alllist();
 }

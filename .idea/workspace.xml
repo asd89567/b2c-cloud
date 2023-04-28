@@ -5,217 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99f5ffd9-2880-4c4f-9352-b9d924fe7e62" name="Changes" comment="second">
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/client/CategoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/ProductHotParm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/ProductIdParm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/ProductIdsParm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/ProductpromoParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/pojo/Carousel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/pojo/Picture.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/pojo/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/bocky/Carousel/CarouselApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/bocky/Carousel/controller/CarouselController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/bocky/Carousel/mapper/CarouselMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/bocky/Carousel/service/CarouselService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/src/main/java/com/bocky/Carousel/service/impl/CarouselServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-carousel/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/src/main/java/com/bocky/category/CategoryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/src/main/java/com/bocky/category/Controller/catrgoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/src/main/java/com/bocky/category/Mapper/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/src/main/java/com/bocky/category/Service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/src/main/java/com/bocky/category/Service/impl/CategoryServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-category/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Controller/productController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Mapper/PictureMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Mapper/ProductMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Service/impl/ProductServiceimpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/client/ProductClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/doc/ProductDoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/PageParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/ProductSearchParm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Controller/productSearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/SearchApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/Service/SearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/Service/impl/SearchServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/config/SearchConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/contrroller/SearchController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/listener/SpringbootListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store-search/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/AddressListParm.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/AddressListParm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/AdressRemoveParm.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/AdressRemoveParm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Controller/AdressController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Controller/AdressController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Service/impl/AdressServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Service/impl/AdressServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Service/impl/UserServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Service/impl/UserServiceimpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/mapper/AdressMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/mapper/AdressMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/user/UserApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/UserApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-front-user/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-user/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/store-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-gateway/src/main/java/com/bocky/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/client/CategoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/client/CategoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/ProductIdsParm.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/parm/ProductIdsParm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/pojo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-commons/src/main/java/com/bocky/pojo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Service/impl/ProductServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/store-front-product/src/main/java/com/bocky/product/Service/impl/ProductServiceimpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/accessory-promo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/accessory-promo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/accessory-promo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/accessory-promo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-10000mAh.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-10000mAh.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-18w.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-18w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-30w.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-30w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-36w.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-36w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-60w.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-60w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-car-37w.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-car-37w.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-car.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-car.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/charger-tio.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/charger-tio.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingMen-Mi-CC9.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingMen-Mi-CC9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingMen-Mi-CC9e.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingMen-Mi-CC9e.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingShell-Mi-9-red.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingShell-Mi-9-red.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingShell-Mi-9.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingShell-Mi-9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingShell-Mi-9SE.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingShell-Mi-9SE.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingShell-Mi-CC9Pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingShell-Mi-CC9Pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingShell-Mix-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingShell-Mix-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingShell-RedMi-K20&amp;pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingShell-RedMi-K20&amp;pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/accessory/protectingShell-RedMi-K20.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/accessory/protectingShell-RedMi-K20.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/AirCondition-F3W1.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/AirCondition-F3W1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/AirCondition-V1C1.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/AirCondition-V1C1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/MiTv-4A-32.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/MiTv-4A-32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/MiTv-4A-65.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/MiTv-4A-65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/MiTv-4C-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/MiTv-4C-55.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/MiTv-4X-43.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/MiTv-4X-43.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/MiTv-ArtTv-65.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/MiTv-ArtTv-65.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/MiTv-E55A.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/MiTv-E55A.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/MiTv-E65A.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/MiTv-E65A.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/Washer-Pro-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/Washer-Pro-10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/appliance-promo1.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/appliance-promo1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/appliance/appliance-promo2.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/appliance/appliance-promo2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/cms_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/cms_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/cms_2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/cms_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/cms_3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/cms_3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/cms_4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/cms_4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Mi-CC9.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Mi-CC9.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Redmi-7A.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Redmi-7A.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Redmi-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Redmi-8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Redmi-8A.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Redmi-8A.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Redmi-Note8-pro.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Redmi-Note8-pro.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Redmi-Note8.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Redmi-Note8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Redmi-k30-5G.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Redmi-k30-5G.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/Redmi-k30.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/Redmi-k30.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/phone.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/phone.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/AirCondition-F3W1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/AirCondition-F3W1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/AirCondition-V1C1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/AirCondition-V1C1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MI CC9 Pro-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MI CC9 Pro-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MI CC9 Pro-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MI CC9 Pro-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MI CC9 Pro-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MI CC9 Pro-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MI CC9 Pro-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4A 65-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4A 65-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4A-32-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4A-32-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4A-32-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4A-32-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4A-32-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4C 55-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4C 55-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4C 55-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4C 55-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4C 55-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4C 55-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4X 43-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4X 43-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4X 43-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4X 43-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-4X 43-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-4X 43-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-ArtTv-65-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-ArtTv-65-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E55A-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E55A-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E55A-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E55A-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E55A-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E55A-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E55A-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E55A-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E65A-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E65A-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E65A-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E65A-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E65A-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E65A-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/MiTv-E65A-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/MiTv-E65A-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 7A-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 7A-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 7A-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 7A-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 7A-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 7A-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 7A-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 7A-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 7A-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 7A-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 8-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 8-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 8-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 8-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 8-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 8-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 8-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 8-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 8-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 8-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi 8A-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi 8A-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi K30 5G-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi K30 5G-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi K30 5G-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi K30 5G-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi K30 5G-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi K30 5G-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8 Pro-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8 Pro-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8 Pro-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8 Pro-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8 Pro-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8 Pro-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi Note8-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi Note8-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi-k30-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi-k30-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi-k30-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi-k30-2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi-k30-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi-k30-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi-k30-4.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi-k30-4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Redmi-k30-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Redmi-k30-5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Washer-Pro-10-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Washer-Pro-10-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Washer-Pro-10-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/Washer-Pro-10-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/Washer-Pro-10-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-10000mAh-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-10000mAh-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-10000mAh-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-10000mAh-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-10000mAh-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-10000mAh-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-10000mAh-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-10000mAh-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-10000mAh-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-10000mAh-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-18w-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-18w-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-18w-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-18w-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-18w-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-18w-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-30w-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-30w-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-30w-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-30w-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-30w-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-30w-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-30w-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-30w-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-36w-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-36w-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-36w-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-36w-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-36w-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-36w-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-36w-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-36w-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-36w-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-36w-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-60w-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-60w-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-60w-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-60w-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-60w-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-60w-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-60w-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-60w-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-37w-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-37w-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-37w-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-37w-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-37w-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-37w-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-37w-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-37w-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-37w-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-37w-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-car-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-car-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-tio-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-tio-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-tio-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-tio-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-tio-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-tio-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-tio-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-tio-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/charger-tio-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/charger-tio-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingMen-Mi-CC9-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingMen-Mi-CC9-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingMen-Mi-CC9e-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingMen-Mi-CC9e-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-Mi-9-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-Mi-9-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-Mi-9-red-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9-red-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-Mi-9SE-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-9SE-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-Mi-CC9Pro-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-Mi-CC9Pro-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-Mix-3-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-Mix-3-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-RedMi-K20&amp;pro-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-RedMi-K20&amp;pro-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store-static-oss/src/main/resources/imgs/phone/picture/protectingShell-RedMi-K20-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/store-static-oss/src/main/resources/public/imgs/phone/picture/protectingShell-RedMi-K20-1.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +68,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bocky/IdeaProjects/b2c-cloud/store-front-category/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Bocky/IdeaProjects/b2c-cloud/store-search/src/main/resources&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -265,7 +77,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;a0c3813eb3a970ea64d0adaa3b8361a9&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;1eade1030d9a96659a55f34d7113aca7&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -281,6 +93,7 @@
       <recent name="service.impl" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Bocky\IdeaProjects\b2c-cloud\store-search\src\main\resources" />
       <recent name="C:\Users\Bocky\IdeaProjects\b2c-cloud\store-front-category\src\main\resources" />
       <recent name="C:\Users\Bocky\IdeaProjects\b2c-cloud\store-static-oss\src\main\resources" />
       <recent name="C:\Users\Bocky\IdeaProjects\b2c-cloud" />
@@ -304,19 +117,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CategoryApplication">
-    <configuration name="CarouselApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="store-front-carousel" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bocky.Carousel.CarouselApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.bocky.Carousel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CategoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="store-front-category" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bocky.category.CategoryApplication" />
@@ -348,7 +148,20 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.bocky.product.ProductApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.bocky.product.ProductApplication" />
+          <option name="PATTERN" value="com.bocky.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="store-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.bocky.search.SearchApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.bocky.search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,15 +186,15 @@
       <item itemvalue="Spring Boot.CategoryApplication" />
       <item itemvalue="Spring Boot.ProductApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
-      <item itemvalue="Spring Boot.CarouselApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
       <item itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ProductApplication" />
-        <item itemvalue="Spring Boot.GatewayApplication" />
         <item itemvalue="Spring Boot.UserApplication" />
-        <item itemvalue="Spring Boot.CarouselApplication" />
+        <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.ProductApplication" />
         <item itemvalue="Spring Boot.CategoryApplication" />
       </list>
     </recent_temporary>
@@ -435,6 +248,14 @@
       <workItem from="1682436195198" duration="3526000" />
       <workItem from="1682495656213" duration="292000" />
       <workItem from="1682497007514" duration="689000" />
+      <workItem from="1682504140634" duration="1043000" />
+      <workItem from="1682515164704" duration="2529000" />
+      <workItem from="1682517772551" duration="690000" />
+      <workItem from="1682518894379" duration="7765000" />
+      <workItem from="1682587445919" duration="3573000" />
+      <workItem from="1682660155737" duration="9095000" />
+      <workItem from="1682671355590" duration="107000" />
+      <workItem from="1682671880890" duration="192000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1668967207554</created>
@@ -457,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669058017204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="second">
+      <created>1682504394763</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682504394763</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -514,6 +342,26 @@
           <url>file://$PROJECT_DIR$/store-front-user/src/main/java/com/bocky/Service/impl/UserServiceimpl.java</url>
           <line>33</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/Service/impl/SearchServiceimpl.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/Service/impl/SearchServiceimpl.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/Service/impl/SearchServiceimpl.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/store-search/src/main/java/com/bocky/search/Service/impl/SearchServiceimpl.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

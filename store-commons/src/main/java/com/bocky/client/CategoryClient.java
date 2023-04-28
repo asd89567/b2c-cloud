@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RequestBody;
  */
 @FeignClient(value= "category-service")
 public interface CategoryClient {
-    @GetMapping("category/promo/{categoryName}")
+    @GetMapping("/category/promo/{categoryName}")
     R getName(@PathVariable("categoryName") String categoryName);
 
     @PostMapping("/category/hots")

@@ -84,6 +84,17 @@ public class ProductServiceimpl implements ProductService {
     }
 
     /**
+     * 收索調用全部商品集合
+     * @return
+     */
+    @Override
+    public List<Product> alllist() {
+        List<Product> products = productMapper.selectList(null);
+        log.info("ProductServiceimpl.alllist查詢結果{}",products);
+        return products;
+    }
+
+    /**
      * 1.調用類別服務
      * 2.類別集合id查詢商品
      * 3結果封裝
@@ -93,11 +104,12 @@ public class ProductServiceimpl implements ProductService {
     @Override
     public R hots(ProductHotParm productHotParm) {
         R hotscategory = categoryClient.hotscategory(productHotParm);
-        log.info("查詢成功",hotscategory);
+
         if (hotscategory.getCode().equals(R.FAIL_CODE)){
             log.info("錯誤{}",hotscategory.getMsg());
             return hotscategory;
         }
+        log.info("查詢成功{}",hotscategory);
 
         List<Object> data = (List<Object>) hotscategory.getData();
 

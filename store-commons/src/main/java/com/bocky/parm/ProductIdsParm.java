@@ -11,11 +11,8 @@ import java.util.List;
  * 　@Description:
  */
 @Data
-public class ProductIdsParm {
+public class ProductIdsParm extends PageParm{
     @NotNull
     private List<Integer> categoryID;
 
-    private Integer currentPage = 1;
-
-    private Integer pageSize = 15; //默認值
 }
